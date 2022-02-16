@@ -2,9 +2,9 @@
     "name": "everest-night-theme",
     "displayName": "Everest Night Theme",
     "description": "A Visual Studio Code Theme inspired by the night view in the Himalayan region.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "sujanshrestha",
-    "icon": "images/everest-night-theme.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/sjns19/everest-night-theme"
+        "url": "https://github.com/sjns19/everest-night-theme.git"
     },
     "categories": [
         "Themes"
