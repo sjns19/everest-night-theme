@@ -1,10 +1,10 @@
 # Everest Night Theme
 
-![Build Status](https://img.shields.io/github/package-json/v/sjns19/everest-night-theme?color=%2355a847&label=Version)
+![Build Status](https://img.shields.io/github/package-json/v/sjns19/everest-night-theme?color=%2355a847&label=Version) ![Installs](https://img.shields.io/visual-studio-marketplace/i/SujanShrestha.everest-night-theme?color=%23fc6203&label=Installs)
 
 A dark theme for Visual Studio Code inspired by the night view from the Himalyan Regions.
 
-![everest-night-theme](https://user-images.githubusercontent.com/47782595/154212861-e12d9e72-811a-4674-a417-ed99dae2013d.png)
+![everest-night-theme](https://user-images.githubusercontent.com/47782595/154411208-bc7f8904-f67e-4abb-ad2c-bebc9f374c45.png)
 
 ## Screenshots
 ![example-react-next](https://user-images.githubusercontent.com/47782595/154214744-a4fb33c7-f8d7-441d-9ebc-c911fc38b58a.jpeg)
