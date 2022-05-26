@@ -17,3 +17,7 @@
   - Status bar
   - Notification center
   - Quick input area
+
+### Version 1.0.3 (5/28/2022)
+
+- Color corrections
