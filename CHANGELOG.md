@@ -18,6 +18,14 @@
   - Notification center
   - Quick input area
 
-### Version 1.0.3 (5/28/2022)
+### Version 1.0.3 (5/26/2022)
 
 - Color corrections
+
+### Version 1.1.0 (5/30/2022)
+
+- Corrected colors for C++, C#, Dart, HTML attribute and CSS
+- Lightened up the purple color for integer, float and boolean values
+- Added colors to markdown (.md) file(s)
+- Added a bit faded out color to the git ignored file/folder in the sidebar list
+- Colorized widgets to match the theme

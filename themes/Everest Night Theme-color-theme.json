@@ -3,7 +3,7 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#0e1622",
-		"editor.foreground": "#ffffff99",
+		"editor.foreground": "#acc6ed",
 		"editorLineNumber.foreground": "#8fa0b677",
 		"editorLineNumber.activeForeground": "#8fa0b6",
 		"editorIndentGuide.background": "#8fa0b633",
@@ -11,6 +11,9 @@
 		"editorGroupHeader.tabsBackground": "#0e1622",
 		"editorGroupHeader.border": "#0e1622",
 		"editor.lineHighlightBorder": "#00000000",
+		"editorWidget.background": "#0e1622",
+		"editorWidget.foreground": "#8fa0b6cc",
+		"editorWidget.border": "#8fa0b644",
 		"activityBar.background": "#0e1622",
 		"activityBar.foreground": "#8fa0b6",
 		"activityBar.activeBorder": "#8fa0b6",
@@ -31,6 +34,8 @@
 		"list.inactiveFocusBackground": "#8fa0b622",
 		"list.inactiveSelectionBackground": "#8fa0b622",
 		"list.hoverBackground": "#8fa0b60f",
+		"list.hoverForeground": "#bbcadd",
+		"list.focusOutline": "#8fa0b644",
 		"breadcrumb.foreground": "#8fa0b688",
 		"breadcrumb.focusForeground": "#8fa0b6",
 		"breadcrumbPicker.background": "#0e1622",
@@ -44,7 +49,7 @@
 		"welcomePage.progress.foreground": "#8fa0b6",
 		"dropdown.background": "#0e1622",
 		"dropdown.listBackground": "#0e1622",
-		"input.background": "#8fa0b611",
+		"input.background": "#0e1622",
 		"input.foreground": "#8fa0b6",
 		"input.placeholderForeground": "#8fa0b688",
 		"input.border": "#8fa0b644",
@@ -64,8 +69,7 @@
 		"pickerGroup.border": "#8fa0b6",
 		"quickInput.background": "#0e1622",
 		"quickInput.foreground": "#8fa0b6",
-		
-		
+		"gitDecoration.ignoredResourceForeground": "#8fa0b677",
 	},
 	"tokenColors": [
 		{
@@ -139,19 +143,22 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage, Special Method, Operator, Misc",
+			"name": "Keyword, Namespace, Storage, Special Method, Operator, Misc",
 			"scope": [
 				"keyword",
 				"storage.type",
 				"storage.modifier",
 				"meta.tag.xml",
+				"meta.body.function.definition",
 				"meta.method.declaration",
 				"keyword.control",
 				"constant.other.color",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.directive",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"entity.name.type.namespace",
+				"support.class.dart"
 			],
 			"settings": {
 				"foreground": "#73a3e9"
@@ -183,7 +190,6 @@
 				"support.function.constructor.php",
 				"support.function",
 				"keyword.other.special-method",
-				"support.class.dart"
 			],
 			"settings": {
 				"foreground": "#7eafbf"
@@ -208,7 +214,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -224,7 +230,7 @@
 				"entity.other.keyframe-offset"
 			],
 			"settings": {
-				"foreground": "#a598b5"
+				"foreground": "#c8a4d2"
 			}
 		},
 		{
@@ -232,6 +238,8 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
+				"punctuation.definition.string.being",
+				"constant.other.placeholder",
 				"constant.other.symbol",
 				"constant.other.key",
 				"constant.character.escape",
@@ -347,14 +355,15 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
-			"name": "CSS Classes, SASS Property List",
+			"name": "CSS Classes, SASS Property List at-rule",
 			"scope": [
 				"entity.other.attribute-name.class",
-				"entity.name.tag.reference.scss"
+				"entity.name.tag.reference.scss",
+				"punctuation.definition.keyword"
 			],
 			"settings": {
 				"foreground": "#73a3e9"
@@ -550,11 +559,12 @@
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
+				"entity.name.section.markdown",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#73a3e9"
 			}
 		},
 		{
@@ -596,11 +606,12 @@
 		{
 			"name": "Markup - Underline",
 			"scope": [
-				"markup.underline"
+				"markup.underline",
+				"meta.paragraph.markdown",
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#acc6edbb"
 			}
 		},
 		{
