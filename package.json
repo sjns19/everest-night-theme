@@ -13,9 +13,10 @@
         "dark theme", 
         "night theme",
         "night dark",
-        "everest night snow",
-        "everest night snow theme",
-        "snow theme"
+        "everest",
+        "everest night",
+        "everest night theme",
+        "everest night dark theme"
     ],
     "repository": {
         "type": "git",
