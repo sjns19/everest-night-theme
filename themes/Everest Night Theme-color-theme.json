@@ -126,7 +126,7 @@
 				"meta.body.class",
 				"meta.parens.block",
 				"meta.block",
-				"meta.method.body"
+				"meta.method.body",
 			],
 			"settings": {
 				"foreground": "#acc6ed"
@@ -246,7 +246,8 @@
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"meta.attribute-selector"
+				"meta.attribute-selector",
+				"markup.underline.link"
 			],
 			"settings": {
 				"foreground": "#a2c7ba"
@@ -574,7 +575,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -585,7 +586,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -611,7 +612,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#acc6edbb"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -647,7 +648,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -656,7 +657,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#acc6ed"
 			}
 		},
 		{
@@ -690,11 +691,13 @@
 			"name": "Markdown - Fenced Bode Block Variable",
 			"scope": [
 				"markup.raw.block.fenced.markdown",
+				"markup.fenced_code.block.markdown",
 				"variable.language.fenced.markdown",
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"fontStyle": "italic",
+				"foreground": "#7c8ea5"
 			}
 		},
 		{
