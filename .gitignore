@@ -1,3 +1,9 @@
-/.vscode
+.vscode
+
 .vscodeignore
+
+.DS_Store
+
+*.vsix
+
 vsc-extension-quickstart.md
