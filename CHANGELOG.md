@@ -51,3 +51,7 @@
 ![Version](https://img.shields.io/badge/Version-1.1.2-5c89d1) ![Released](https://img.shields.io/badge/Released-6/7/2022-5c89d1)
 
 - Added license and updated README.md
+
+![Version](https://img.shields.io/badge/Version-1.1.3-5c89d1) ![Released](https://img.shields.io/badge/Released-6/7/2022-5c89d1)
+
+- Fixing README.md mess (ugh...)
