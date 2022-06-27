@@ -19,7 +19,7 @@
 		"activityBar.activeBorder": "#8fa0b6",
 		"activityBarBadge.background": "#934164",
 		"sideBar.background": "#0e1622",
-		"sideBar.foreground": "#8fa0b6ee",		
+		"sideBar.foreground": "#8fa0b6ee",
 		"sideBarTitle.foreground": "#8fa0b6cc",
 		"sideBarSectionHeader.background": "#0e1622",
 		"titleBar.activeBackground": "#0e1622",
@@ -111,13 +111,18 @@
 			}
 		},
 		{
-			"name": "Variables, Attributes",
+			"name": "Variables, Constant, Attributes, Support Functions, Namespaces",
 			"scope": [
 				"variable",
 				"string constant.other.placeholder",
 				"meta.object-literal.key",
 				"entity.other.attribute-name",
+				"entity.name.type.namespace.php",
 				"support.variable.property",
+				"support.other.namespace.php",
+				"support.other.namespace.use.php",
+				"support.constant.ext.php",
+				"constant.other",
 				"punctuation.definition.variable",
 				"source.python",
 				"source.dart",
@@ -179,7 +184,7 @@
 			}
 		},
 		{
-			"name": "Function, Class, Special Method, Inherited Class, Block Level Variables",
+			"name": "Function, Class, Support Class, Special Method, Inherited Class, Block Level Variables",
 			"scope": [
 				"variable.function",
 				"entity.name.function",
@@ -188,6 +193,7 @@
 				"meta.function-call",
 				"meta.block variable.other",
 				"support.function.constructor.php",
+				"support.class.php",
 				"support.function",
 				"keyword.other.special-method",
 			],
@@ -199,7 +205,6 @@
 			"name": "Function, Special Method, Function Arguments, Inherited Class, Block Level Variables",
 			"scope": [
 				"variable.function",
-				"support.function",
 				"meta.block variable.other",
 				"keyword.other.special-method"
 			],
@@ -218,9 +223,8 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Tag Attribute, Embedded, Inherited Class",
+			"name": "Number, Tag Attribute, Embedded, Inherited Class",
 			"scope": [
-				"constant.other",
 				"constant.numeric",
 				"constant.language",
 				"constant.character",
@@ -245,9 +249,11 @@
 				"constant.character.escape",
 				"markup.heading",
 				"markup.inserted.git_gutter",
+				"markup.underline.link",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"meta.attribute-selector",
-				"markup.underline.link"
+				"keyword.other.DML.sql",
+				"keyword.other.sql"
 			],
 			"settings": {
 				"foreground": "#a2c7ba"
@@ -258,9 +264,7 @@
 			"scope": [
 				"support.type",
 				"support.class",
-				"support.other.namespace.use.php",
 				"meta.use.php",
-				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types"
 			],

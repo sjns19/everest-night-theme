@@ -2,19 +2,19 @@
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.0.0-5c89d1) ![Released](https://img.shields.io/badge/Released-2/14/2022-5c89d1)
+### Version 1.0.0 (14 Feb, 2022)
 
 - Initial release
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.0.1-5c89d1) ![Released](https://img.shields.io/badge/Released-2/18/2022-5c89d1)
+### Version 1.0.1 (18 Feb, 2022)
 
 - Minor changes to the colors
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.0.2-5c89d1) ![Released](https://img.shields.io/badge/Released-5/21/2022-5c89d1)
+### Version-1.0.2 (21 May, 2022)
 
 - Lightened up text colors for more contrast
 - Added colors to the following components to match with the theme:
@@ -26,32 +26,44 @@
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.0.3-5c89d1) ![Released](https://img.shields.io/badge/Released-5/26/2022-5c89d1)
+### Version 1.0.3 (26 May, 2022)
 
 - Color corrections
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.1.0-5c89d1) ![Released](https://img.shields.io/badge/Released-5/30/2022-5c89d1)
+### Version 1.1.0 (30 May, 2022)
 
 - Corrected colors for C++, C#, Dart, HTML attribute and CSS
 - Lightened up the purple color for integer, float and boolean values
 - Added colors to markdown (.md) file(s)
-- Added a bit faded out color to the git ignored file/folder in the sidebar list
-- Colorized widgets to match the theme
+- Added a bit faded out color to the git ignored file(s)/folder(s) in the sidebar list
+- Colorized editor widgets to match the theme
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.1.1-5c89d1) ![Released](https://img.shields.io/badge/Released-5/31/2022-5c89d1)
+### Version 1.1.1 (31 May, 2022)
 
 - Updated colors for markdown
 
 ---
 
-![Version](https://img.shields.io/badge/Version-1.1.2-5c89d1) ![Released](https://img.shields.io/badge/Released-6/7/2022-5c89d1)
+### Version 1.1.2 (7 Jun, 2022)
 
-- Added license and updated README.md
+- Nothing new in this update, just added license and updated README.md
 
-![Version](https://img.shields.io/badge/Version-1.1.3-5c89d1) ![Released](https://img.shields.io/badge/Released-6/7/2022-5c89d1)
+---
+
+### Version 1.1.3 (7 Jun, 2022)
 
 - Fixing README.md mess (ugh...)
+
+---
+
+### Version 1.1.4 (27 Jun, 2022)
+
+- Corrected colors for SQL
+- Updated colors for the following scopes in PHP:
+  - Constants
+  - Support class and functions
+  - Namespaces
