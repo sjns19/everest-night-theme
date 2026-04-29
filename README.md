@@ -10,6 +10,8 @@
   <br />
   <br />
 
+  <h2>⚠️ This theme is no longer maintained</h2>
+
 A dark theme for Visual Studio Code inspired by the night view from the Himalayan Regions.
 
 <img src="https://user-images.githubusercontent.com/47782595/154411208-bc7f8904-f67e-4abb-ad2c-bebc9f374c45.png" />
